@@ -1,0 +1,1 @@
+mklink /J C:\AndroidSDK "C:\Program Files (x86)\Android\android-sdk"

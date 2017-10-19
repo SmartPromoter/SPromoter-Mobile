@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>verdeescuro</key>
+	<string>#005E37</string>
+	<key>verdeazul</key>
+	<string>#0a585a</string>
+	<key>verdeazulclick</key>
+	<string>#0b7577</string>
+	<key>verdeazulescuro</key>
+	<string>#FF015253</string>
+	<key>verdeazulescurotop</key>
+	<string>#FF004546</string>
+	<key>branco</key>
+	<string>#ffffff</string>
+	<key>brancotransparente</key>
+	<string>#4dd8d8d8</string>
+	<key>brancocinza</key>
+	<string>#d8d8d8</string>
+	<key>cinza</key>
+	<string>#ff969696</string>
+	<key>black</key>
+	<string>#000000</string>
+	<key>snackbar</key>
+	<string>#323232</string>
+	<key>cinza_material</key>
+	<string>#757575</string>
+	<key>red</key>
+	<string>#FF0000</string>
+</dict>
+</plist>

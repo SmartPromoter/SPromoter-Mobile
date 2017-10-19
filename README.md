@@ -1,2 +1,2 @@
 # SPromoter-Mobile
-APP em Xamarin (iOS/Android) para controle de equipes de trade marketing em PDVs.
+APP em xamarin da SmartPromoter - SaaS OpenSource de monitoramento de equipes em campo no PDV.
