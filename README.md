@@ -1,5 +1,5 @@
-# SPromoter-Mobile
-APP em xamarin da SmartPromoter - SaaS OpenSource de monitoramento de equipes em campo no PDV.
+# SmartPromoter - Mobile Xamarin Version
+**SaaS OpenSource de monitoramento de equipes em campo no PDV.**
 
 <a href="http://www.smartpromoter.trade/" title="Visite o website da SmartPromoter">
   <img src="http://www.smartpromoter.trade/wp-content/uploads/2014/11/SP-tablet-Mockup-1.png" alt="">
