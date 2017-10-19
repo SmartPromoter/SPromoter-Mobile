@@ -11,13 +11,23 @@ APP em xamarin da SmartPromoter - SaaS OpenSource de monitoramento de equipes em
 > **Warning:** O App precisa de um storage de imagens configurado e com as devidas autorizacoes de acesso para baixar e enviar os JPEGs.
 
 **Features**
-- APP desenvolvido em Xamarin com estrutura logica desenvolvida no PCL, e interfaces nativas respectivamente para Android e iOS
+- APP desenvolvido em Xamarin com camada de negocios e banco de dados desenvolvida no PCL, e interfaces nativas respectivamente para Android e iOS
 - Integracao com camera nativa e sistema de envio automatico de fotos para blob storage
 - Compactacao de imagem instantanea para minimizar custo de armazenamento e envio.
 - Formulario totalmente dinamico para questionarios de ate 30 perguntas ( variacoes de respostas - DateTime, Checkbox, Text string, Text Numerico, Slider e etc )
 - Controle de geolocalicazao
 - Sincronizacao automatica de dados
 - Integracao com multi-usuarios pra promotores compartilhados. 
+
+
+
+### Requisitos minimos do usuario final
+
+|         Modelo        |       Versao        | 
+| --------------------- | ------------------- |
+|       `Android`       |       API>=5.0      |
+|         `iOS`         |  Iphone + iOS>10.0  |
+
 
 
 ### Configuracao Basica
