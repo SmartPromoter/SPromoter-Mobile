@@ -44,7 +44,6 @@
 
 ## Contribuicao
 
-Contribuicoes sao mais do que bem vindos, o codigo e novo e precisa de todo apoio possivel.
 Para mais informacoes, veja o [documento oficial de contribuicao](https://github.com/SmartPromoter/SPromoter-Mobile/blob/master/LICENSE).
 
 ## Roadmap
