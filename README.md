@@ -2,7 +2,7 @@
 APP em xamarin da SmartPromoter - SaaS OpenSource de monitoramento de equipes em campo no PDV.
 
 <a href="http://www.smartpromoter.trade/" title="Visite o website da SmartPromoter">
-  <img src="https://user-images.githubusercontent.com/643944/30787041-84ccc1aa-a14e-11e7-982d-972978185636.png" alt="">
+  <img src="http://www.smartpromoter.trade/wp-content/uploads/2014/11/SP-tablet-Mockup-1.png" alt="">
 </a>
 
 <hr/>
