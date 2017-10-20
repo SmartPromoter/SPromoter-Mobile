@@ -1,4 +1,4 @@
-### ROADMAP 2017
+### ROADMAP
 
 Estamos focados em transformar um projeto anteriormente fechado ao público e confidencial em algo 100% público e escalável (Open Source ? =D ), viabilizando soluções cada vez melhores e gratuitas aos variados setores que usufruem da gestão de trade marketing como diferencial competitivo.
 
