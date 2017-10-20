@@ -44,7 +44,7 @@
 
 ## Contribuicao
 
-Para mais informacoes, veja o [documento oficial de contribuicao](https://github.com/SmartPromoter/SPromoter-Mobile/blob/master/LICENSE).
+Para mais informacoes, veja o [documento oficial de contribuicao](https://github.com/SmartPromoter/SPromoter-Mobile/blob/master/CONTRIBUTING.md).
 
 ## Roadmap
 
