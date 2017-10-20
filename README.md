@@ -48,7 +48,7 @@ Para mais informacoes, veja o [documento oficial de contribuicao](https://github
 
 ## Roadmap
 
-O roadmap oficial ainda esta em construcao.
+Veja o nosso [roadmap](https://github.com/SmartPromoter/SPromoter-Mobile/blob/master/roadmap.md) para conferir o mesmo atualizado
 
 ## Copyright
 
