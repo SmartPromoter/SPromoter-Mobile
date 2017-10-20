@@ -30,9 +30,13 @@
 
 ### Configuração Básica
 
-| Variável              | Descrição                                                  | Classe                    |
-| --------------------- | ---------------------------------------------------------- | ------------------------- |
-| `linkContainer`       | Link do storage de imagem para o envio das fotos           | BlobCredentials.CS        |
+| Variável                 | Descrição                  | Classe                                                 |
+| ------------------------ | -------------------------- | ------------------------------------------------------ |
+| `url `                   | Endereco do Blob           | SPromoterMobile/Models/Credenciais/AzureCredenciais.cs |
+| `key `                   | Chave de seguranca do Blob | SPromoterMobile/Models/Credenciais/AzureCredenciais.cs |
+| `user `                  | ID do usuario do Blob      | SPromoterMobile/Models/Credenciais/AzureCredenciais.cs |
+| `urlGetInstancia  `      | URL base do host da API    | SPromoterMobile/Models/Credenciais/API_Credenciais.cs  |
+| `customMailUserDomain  ` | Nome do host do email      | SPromoterMobile/Models/Credenciais/API_Credenciais.cs  |
 
 
 ## Contribuição
