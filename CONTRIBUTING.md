@@ -13,6 +13,7 @@ Obrigado pela seu interesse/apoio, estamos felizes em ouvir e aprender com você
 
 ## Tipos de contribuições que estamos buscando
 
+* Desenvolvimento das features citadas no [roadmap](https://github.com/SmartPromoter/SPromoter-Mobile/blob/master/ROADMAP.md)
 * Desenvolvimento de Teste Unitário/Teste Integrado
 * Tradução do código e da aplicação para ENG
 * Tradução da documentação para ENG
