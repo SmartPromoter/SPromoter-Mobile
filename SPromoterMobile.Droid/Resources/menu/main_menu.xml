@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+  <item
+      android:id="@+id/action_almoco"
+      android:icon="@drawable/ic_restaurant_menu_white_24dp"
+      android:title="@string/hr_almoco"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/action_search"
+      android:icon="@drawable/ic_search_white_24dp"
+      android:title="@string/search_pdv"
+      app:showAsAction="ifRoom" />
+	
+ <item
+      android:id="@+id/action_newUser"
+      android:title="@string/title_gerencias_contas"
+      app:showAsAction="never" />
+
+	 <item
+      android:id="@+id/force_sync"
+      android:title="@string/sincronizar"
+      app:showAsAction="never" />
+</menu>

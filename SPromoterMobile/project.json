@@ -1,0 +1,11 @@
+﻿{
+  "dependencies": {
+    "Microsoft.Net.Http": "2.2.29",
+    "Newtonsoft.Json": "10.0.3",
+    "PCLStorage": "1.0.2",
+    "sqlite-net-pcl": "1.4.118"
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.6,Profile=Profile151": {}
+  }
+}

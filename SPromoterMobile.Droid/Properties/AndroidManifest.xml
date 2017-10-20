@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.lynop.sevenclouds" android:installLocation="auto" android:versionCode="406000066" android:versionName="406000066">
+	<uses-sdk android:minSdkVersion="21" />
+	<uses-feature android:name="android.hardware.camera" />
+	<protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+	<application android:label="smartpromoter"></application>
+</manifest>

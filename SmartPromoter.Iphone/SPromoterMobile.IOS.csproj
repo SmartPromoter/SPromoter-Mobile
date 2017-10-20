@@ -86,7 +86,8 @@
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <MtouchExtraArgs>--linkskip=Newtonsoft.Json --linkskip=sqlite-net-pcl --linkskip=SQLite --linkskip=SQLiteNetExtensions --linkskip=SQLiteNetExtensions.Async --linkskip=SQLite-net --linkskip=SQLitePCLRaw.batteries_green --linkskip=SQLitePCLRaw.batteries_v2 --linkskip=SQLitePCLRaw.core --linkskip=SQLitePCLRaw.provider.sqlite3 --linkskip=MvvmCross.Plugins.Sqlite --linkskip=MvvmCross.Plugins.Sqlite.iOS --linkskip=SPromoterMobile</MtouchExtraArgs>
-    <CodesignProvision></CodesignProvision>
+    <CodesignProvision>
+    </CodesignProvision>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
@@ -423,7 +424,7 @@
     <Compile Include="Sincronizador.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SPromoterMobile\SPromoterMobile\SPromoterMobile.csproj">
+    <ProjectReference Include="..\SPromoterMobile\SPromoterMobile.csproj">
       <Project>{3143F290-187B-48C2-A883-1CCB9EA4640C}</Project>
       <Name>SPromoterMobile</Name>
     </ProjectReference>

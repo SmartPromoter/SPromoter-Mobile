@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="empresa">Empresa</string>
+	<string name="justificativa">Justificativa</string>
+	<string name="justificar">Justificar</string>
+	<string name="justificativa_card">JUSTIFICATIVA</string>
+	<string name="justificar_card">JUSTIFICAR</string>
+	<string name="check_in_card">CHECK-IN</string>
+	<string name="check_in">Check-In</string>
+	<string name="ruptura_card">RUPTURA</string>
+	<string name="formulario_card">FORMULÁRIO</string>
+	<string name="usuario">Usuário</string>
+	<string name="senha">Senha</string>
+	<string name="spinner_justificativa">Selecione uma razão para efetuar a justificativa</string>
+	<string name="title_gerencias_contas">Adicionar Conta</string>
+	<string name="error_time_automatic">A Data e hora deve estar como "automatico" para continuar.</string>
+	<string name="error_dev_mode_on">Desative o modo de desenvolvedor para continuar.</string>
+	<string name="entrar">Entrar</string>
+	<string name="map">Mapa</string>
+	<string name="map_card">MAPAS</string>
+	<string name="PDV_Distante">PDV Distante do esperado</string>
+	<string name="PDV_Distante_descricao">Sua localicacao atual esta diferente da esperada para realizar o check-in na loja, gostaria de continuar ?</string>
+	<string name="delete_user">Conta removida com sucesso.</string>
+	<string name="maps_not_found">Instale e execute ao menos uma vez o Google Maps para utilizar este recurso</string>
+	<string name="msg_new_user_ok">Nova conta adicionada com sucesso.</string>
+	<string name="erro_justificativa">Ocorreu um erro ao cadastrar a justificativa, tente novamente.</string>
+	<string name="erro_ruptura">Ocorreu um erro ao cadastrar a ruptura, abra o google maps por alguns instantes e tente novamente.</string>
+	<string name="erro_formulario">Ocorreu um erro no formulario, abra o google maps por alguns instantes e tente novamente.</string>
+	<string name="erro_checkin">Ocorreu um erro no Checkin, abra o google maps por alguns instantes e tente novamente.</string>
+	<string name="new_user">Adicionar novo usuario</string>
+	<string name="adicionar">Adicionar</string>
+	<string name="aguarde">Aguarde...</string>
+	<string name="sync_ok">Sincronizacao 100% Concluida.</string>
+	<string name="carregando">Aguarde um momento...</string>
+	<string name="sincronizar">Sincronizar</string>
+	<string name="errosync">Erro encontrado - Envie a mensagem para o Suporte</string>
+	<string name="novos_pdvs">%1$d Novos PDVs"</string>
+	<string name="search">Pesquisar</string>
+	<string name="searchpdv">Encontrar PDV</string>
+	<string name="confirm_tarefas">Existem tarefas ainda não concluidas, tem certeza que gostaria de finalizar a loja e fazer o checkout ? </string>
+	<string name="desc">Descrição</string>
+	<string name="cancelar">Cancelar</string>
+	<string name="percent_dinamico_bar">Você possui %1$s da méta diária concluída</string>
+	<string name="percent_dinamico_bar_tarefa">%1$s das tarefas iniciadas ou concluídas</string>
+	<string name="msg_erro_inesperado_login">Ocorreu um erro inesperado, verifique sua conexão e os dados de login</string>
+	<string name="msg_popup_login">Buscando informações do usuário ...</string>
+	<string name="erro_msg_ao_tirar_foto">Ocorreu um erro desconhecido, por favor tire outra foto</string>
+	<string name="sem_pdv">Não existem mais pdvs para a data de hoje.</string>
+	<string name="logoff_fail_sync">Não é possível sair do sistema enquanto a sincronização está pendente ou em execução. Tente novamente mais tarde.</string>
+	<string name="ruptura_informada_sucesso"> Ruptura informada com sucesso.</string>
+	<string name="justificativa_sucesso">Justificativa realizada com sucesso.</string>
+	<string name="almoco_finalizado">Horário de Almoço finalizado</string>
+	<string name="almoco_error">Não e possível iniciar um segundo horário de almoço no mesmo dia</string>
+	<string name="almoco_error_ponto">E necessário ter o ponto aberto para ativar o horário de almoço.</string>
+	<string name="form_error_validation">Existem dados não preenchidos corretamente, favor verificar </string>
+	<string name="modo_aviao">\n Desative o modo de avião para utilizar o sistema \n</string>
+	<string name="gps_off">\n Ative o GPS para Utilizar o sistema\n </string>
+	<string name="sim">Sim</string>
+	<string name="nao">Não</string>
+	<string name="menupdvtoolbar">Roteiro</string>
+	<string name="ruptura_confirmacao">O produto realmente esta em ruptura na loja ?</string>
+	<string name="chk_in_confirmacao">Gostaria de realizar o check-in ?</string>
+	<string name="hr_almoco">Horário de Almoço</string>
+	<string name="min_horario_de_almoco">10 Minutos para o fim do horário de almoço</string>
+	<string name="sobre">Sobre o aplicativo</string>
+	<string name="dialog_confirm_almoco">Gostaria de iniciar o horário de almoço em seu ponto eletrônico ?</string>
+	<string name="dialog_confirm_end_almoco">Gostaria de finalizar o horário de almoço em seu ponto eletrônico ?</string>
+	<string name="dialog_ainda_no_almoco">Aplicativo bloqueado durante horário de almoço</string>
+	<string name="sair">Sair</string>
+	<string name="dialog_confirm_sair_sistema">Gostaria de sair do sistema ?</string>
+	<string name="ok">OK</string>
+	<string name="tarefas">Tarefas</string>
+	<string name="dialog_confirm_sem_tarefas_no_pdv">Nao existem mais tarefas pendentes para este pdv.</string>
+	<string name="login">Login</string>
+	<string name="send_form">Concluir formulario</string>
+	<string name="form_concluido">Formulario concluido</string>
+	<string name="send_form_desc">Gostaria de finalizar e enviar o formulario desta tarefa ?</string>
+	<string name="search_pdv">Pesquisar PDV</string>
+	<string name="search_produtos">Pesquisar produto</string>
+	<string name="sobre_toolbar">Sobre</string>
+	<string name="tirar_foto">Tirar Foto</string>
+	<string name="concluir">Concluir</string>
+	<string name="carregando_pdv">Carregando PDVs</string>
+	<string name="outros">Outros</string>
+	<string name="almoco_ini">Almoço iniciado</string>
+	<string name="dialog_sobre">
+      Este aplicativo está baseado em ou incorpora material dos projetos listados abaixo (coletivamente, "Codigo de terceiros").
+      A SmartPromoter não é o autor original dos codigos de terceiros. Tais licenças e avisos são fornecidos apenas para fins informativos.\n\n
+
+      1. Android opensource project\n
+      2. Google Play Services\n
+      3. Gson project\n
+      4. Mono project\n
+      5. SQLite-net\n
+      6. PCLStorage\n
+      7. CircleImageView\n\n
+
+      Provide for informational purpose only\n
+      Apache 2.0 License\n
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at\n
+      http://www.apache.org/licenses/LICENSE-2.0\n
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.\n\n
+
+      Termos de uso disponivel em : www.smartpromoter.trade
+    </string>
+	<string name="formulario">Formulario</string>
+</resources>

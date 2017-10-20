@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{3143F290-187B-48C2-A883-1CCB9EA4640C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SPromoterMobile</RootNamespace>
+    <AssemblyName>SPromoterMobile</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <ReleaseVersion>406000066</ReleaseVersion>
+    <TargetFrameworkProfile>Profile151</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Controller\LoginCon.cs" />
+    <Compile Include="Controller\RESTful\ContainerRestCon.cs" />
+    <Compile Include="Controller\RESTful\IntanciaRestCon.cs" />
+    <Compile Include="Controller\RESTful\LoginRestCon.cs" />
+    <Compile Include="Controller\RESTful\PDVsRestCon.cs" />
+    <Compile Include="Controller\SyncronizerCon.cs" />
+    <Compile Include="Data\CacheDA.cs" />
+    <Compile Include="Data\GenericActDA.cs" />
+    <Compile Include="Data\LoginDA.cs" />
+    <Compile Include="Data\MenuPdvsDA.cs" />
+    <Compile Include="Data\SyncronizerDA.cs" />
+    <Compile Include="Models\Enums\Cache.cs" />
+    <Compile Include="Models\Enums\StatusAPI.cs" />
+    <Compile Include="Models\Enums\StatusVisitaServer.cs" />
+    <Compile Include="Models\Exceptions\BadRequestException.cs" />
+    <Compile Include="Models\Exceptions\Container404Exception.cs" />
+    <Compile Include="Models\Exceptions\InvalidLoginException.cs" />
+    <Compile Include="Models\Exceptions\InvalidServerException.cs" />
+    <Compile Include="Models\Exceptions\NotModifiedException.cs" />
+    <Compile Include="Models\Exceptions\UnauthorizedException.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\RESTful\FormSchemasRestModel.cs" />
+    <Compile Include="Models\RESTful\InstanciaRestModel.cs" />
+    <Compile Include="Models\RESTful\LoginRestModel.cs" />
+    <Compile Include="Models\RESTful\ProdutosRestModel.cs" />
+    <Compile Include="Models\RESTful\PDVsRestModel.cs" />
+    <Compile Include="Models\SyncronizerModel.cs" />
+    <Compile Include="Models\Tables\TB_CACHE.cs" />
+    <Compile Include="Models\Tables\TB_TAREFAS.cs" />
+    <Compile Include="Models\Tables\TB_PRODUTO.cs" />
+    <Compile Include="Models\Tables\TB_USUARIO.cs" />
+    <Compile Include="Models\Tables\TB_VISITA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\ListTypePDV.cs" />
+    <Compile Include="Data\MenuTarefasDA.cs" />
+    <Compile Include="Data\FormDinamicoDA.cs" />
+    <Compile Include="Controller\FormDinamicoCon.cs" />
+    <Compile Include="Models\FormDinamicoModel.cs" />
+    <Compile Include="Controller\RESTful\PontoEletronicoRestCon.cs" />
+    <Compile Include="Models\RESTful\PontoEletronicoRestModel.cs" />
+    <Compile Include="Controller\RESTful\FormsRestCon.cs" />
+    <Compile Include="Models\Enums\CredentialsAzureStorage.cs" />
+    <Compile Include="Models\RESTful\ContainerRestModel.cs" />
+    <Compile Include="Models\TokenList.cs" />
+    <Compile Include="Controller\GenericCon.cs" />
+    <Compile Include="Controller\MenuPdvsCon.cs" />
+    <Compile Include="Models\MenuPdvsModel.cs" />
+    <Compile Include="Models\GenericModel.cs" />
+    <Compile Include="Models\Enums\StatusPontoEletronico.cs" />
+    <Compile Include="Models\MenuTarefasModel.cs" />
+    <Compile Include="Controller\MenuTarefasCon.cs" />
+    <Compile Include="Controller\MenuContasCon.cs" />
+    <Compile Include="Models\ContasModel.cs" />
+    <Compile Include="Data\ISQLite.cs" />
+    <Compile Include="Data\SQLHelper.cs" />
+    <Compile Include="Models\Tables\TB_TYPE_FORMS.cs" />
+    <Compile Include="Models\PreserveAttribute.cs" />
+    <Compile Include="Models\Credenciais\AzureCredenciais.cs" />
+    <Compile Include="Models\Credenciais\API_Credenciais.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="project.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Credenciais\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabsToSpaces="True" scope="text/plain" />
+          <DotNetNamingPolicy ResourceNamePolicy="FileFormatDefault" DirectoryNamespaceAssociation="PrefixedHierarchical" />
+          <CSSFormattingPolicy AutomaticFormatting="True" BracePositions="SemiExpanded" FormatOnPaste="True" HierarchicalIndentation="True" scope="text/x-css" />
+          <TextStylePolicy FileWidth="120" TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" EolMarker="Native" TabsToSpaces="True" NoTabsAfterNonTabs="True" scope="text/x-css" />
+          <HTMLFormattingPolicy FormatOnPaste="True" XHTMLCodingStyle="True" scope="text/x-html" />
+          <TextStylePolicy FileWidth="120" TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" EolMarker="Native" TabsToSpaces="True" NoTabsAfterNonTabs="True" scope="text/x-html" />
+          <JSONFormattingPolicy AutomaticFormatting="False" AutoStructureCompletion="True" BracePositions="SemiExpanded" FormatOnPaste="True" scope="text/x-json" />
+          <TextStylePolicy FileWidth="120" RemoveTrailingWhitespace="True" EolMarker="Native" TabWidth="2" TabsToSpaces="True" IndentWidth="2" NoTabsAfterNonTabs="True" scope="text/x-json" />
+          <TextStylePolicy FileWidth="120" TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" EolMarker="Native" TabsToSpaces="True" NoTabsAfterNonTabs="True" scope="text/x-fsharp" />
+          <FSharpFormattingPolicy scope="text/x-fsharp">
+            <DefaultFormat IndentOnTryWith="False" ReorderOpenDeclaration="False" SpaceAfterComma="True" SpaceAfterSemicolon="True" SpaceAroundDelimiter="True" SpaceBeforeArgument="True" SpaceBeforeColon="True" __added="0" />
+          </FSharpFormattingPolicy>
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

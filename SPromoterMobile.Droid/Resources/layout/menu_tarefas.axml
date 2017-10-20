@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/brancocinza">
+    <include
+        layout="@layout/item_top_bar_user" />
+    <RelativeLayout
+        android:id="@+id/profileLayout"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="center"
+        android:background="@color/verdeazulescuro"
+        android:transitionName="profileBar">
+        <ProgressBar
+            android:id="@+id/pBarMetaTarefa"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/profile_image_tarefa"
+            android:layout_toRightOf="@+id/profile_image_tarefa"
+            android:indeterminate="false"
+            android:max="100" />
+        <Refractored.Controls.CircleImageView
+            android:id="@+id/profile_image_tarefa"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:src="@drawable/profilephotoico"
+            android:transitionName="profileImage" />
+        <TextView
+            android:id="@+id/txtMetaDiariaTarefa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/profile_image_tarefa"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/profile_image_tarefa"
+            android:layout_toRightOf="@+id/profile_image_tarefa"
+            android:text="META DIARIA MANITO"
+            android:textColor="@color/branco"
+            android:textSize="11sp" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/profileLayout"
+        android:background="@color/brancocinza"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="1">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/card_list_loja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/profileLayout"
+                android:background="@color/brancocinza"
+                android:overScrollMode="never" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/card_list_produtos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/brancocinza"
+                android:layout_below="@+id/card_list_loja"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="4dp"
+                android:overScrollMode="never" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

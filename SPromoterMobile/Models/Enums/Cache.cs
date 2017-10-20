@@ -1,0 +1,20 @@
+﻿namespace SPromoterMobile.Models.Enums
+{
+	public enum Cache
+	{
+		PONTO_ELETRONICO = 0,
+		VISITAS_JUSTIFICADAS = 1,
+		FOTOS = 2,
+		FORMS = 3,
+		CHAT = 4,
+		NOVAS_MSG = 5,
+		VISITAS_ATUALIZADAS = 6,
+		PRODUTOS = 7,
+		VISITAS_PENDENTES = 8,
+		CACHE_CONTAINER = 9,
+		CACHE_AVATAR_PROFILE = 10,
+		TYPE_FORM = 11,
+		FORM_LOJA = 12,
+		FORM_PRODUTO = 13,
+	}
+}

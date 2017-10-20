@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+	android:duration="1700">
+		<targets>
+		<target android:excludeId="@layout/item_top_bar_user"/>
+		<target android:excludeId="@android:id/statusBarBackground"/>
+        <target android:excludeId="@android:id/navigationBarBackground"/>	
+	</targets>
+		<changeBounds />
+        <changeTransform />
+        <changeClipBounds />
+        <changeImageTransform />
+
+</transitionSet>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+  <item
+      android:id="@+id/action_foto"
+      android:icon="@drawable/ic_add_a_photo_white_24dp"
+      android:title="@string/tirar_foto"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/action_concluir"
+      android:icon="@drawable/ic_done_all_white_24dp"
+      android:title="@string/concluir"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/action_almoco"
+      android:icon="@drawable/ic_restaurant_menu_white_24dp"
+      android:title="@string/hr_almoco"
+      app:showAsAction="ifRoom" />
+</menu>
