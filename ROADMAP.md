@@ -6,6 +6,8 @@ Estamos focados em transformar um projeto anteriormente fechado ao publico e con
 * [x] Definir estrutura e licenca do projeto opensource
 * [ ] Construir documentacao base
 * [ ] Desenvolver features alternativas para envio de fotos sem necessidade de um blob para configuracao.
+* [ ] Desenvolver features alternativas para acesso independente de server side.
+* [ ] Desenvolver features alternativas para envio de relatorios via email/whatsapp e outros aplicativos externos.
 
 
 Este e nosso plano atual. E como qualquer projeto open source, estamos abertos para receber feedback da comunidade.
